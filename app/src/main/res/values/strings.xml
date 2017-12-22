@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Task 4</string>
+    <string name="enter_movie_name">Enter Movie Name</string>
+    <string name="enter_director_name">Enter Director Name</string>
+    <string name="complete_task_four">Submit Information</string>
+</resources>

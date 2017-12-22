@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    >
+
+    <TextView
+        android:id="@+id/text_movie_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/enter_movie_name"
+        android:textSize="24sp"
+        android:paddingTop="20sp"
+        android:textColor="#339203"/>
+
+    <EditText
+        android:id="@+id/plain_text_input_1"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:inputType="text"
+        android:hint="Movie Name"
+        android:textSize="24sp"
+        android:layout_below="@+id/text_movie_name"/>
+
+    <TextView
+        android:id="@+id/text_director_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/enter_director_name"
+        android:textSize="24sp"
+        android:paddingTop="20sp"
+        android:textColor="#339203"
+        android:layout_below="@+id/plain_text_input_1"/>
+
+    <EditText
+        android:id="@+id/plain_text_input_2"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:inputType="text"
+        android:hint="Director Name"
+        android:textSize="24sp"
+        android:layout_below="@+id/text_director_name"/>
+
+    <Button
+        android:id="@+id/button_on_click_responder"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="35dp"
+        android:text="@string/complete_task_four"
+        android:onClick="StartingSecondActivity"
+        android:textSize="15sp"/>
+
+
+</RelativeLayout>
